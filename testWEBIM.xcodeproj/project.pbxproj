@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5093457521FB4C490041F62C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093457421FB4C490041F62C /* AppDelegate.swift */; };
+		5093457A21FB4C490041F62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093457821FB4C490041F62C /* Main.storyboard */; };
+		5093457D21FB4C490041F62C /* testWEBIM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5093457B21FB4C490041F62C /* testWEBIM.xcdatamodeld */; };
+		5093457F21FB4C4A0041F62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093457E21FB4C4A0041F62C /* Assets.xcassets */; };
+		5093458221FB4C4A0041F62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093458021FB4C4A0041F62C /* LaunchScreen.storyboard */; };
+		5093458A21FB61680041F62C /* SwiftyVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5093458921FB61680041F62C /* SwiftyVK.framework */; };
+		5093458C21FB62860041F62C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093458B21FB62860041F62C /* ViewController.swift */; };
+		5093459821FB9FC50041F62C /* VKDaelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093459721FB9FC50041F62C /* VKDaelegate.swift */; };
+		509345A621FBA16B0041F62C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509345A521FBA16B0041F62C /* ViewController2.swift */; };
+		509345A821FBA50B0041F62C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509345A721FBA50B0041F62C /* SwiftyJSON.swift */; };
+		8782CC4B329C63E0B2F96248 /* Pods_testWEBIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16CF2952FEE05B4A3739E84 /* Pods_testWEBIM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5093457121FB4C490041F62C /* testWEBIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWEBIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5093457421FB4C490041F62C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5093457921FB4C490041F62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5093457C21FB4C490041F62C /* testWEBIM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testWEBIM.xcdatamodel; sourceTree = "<group>"; };
+		5093457E21FB4C4A0041F62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5093458121FB4C4A0041F62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5093458321FB4C4A0041F62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5093458921FB61680041F62C /* SwiftyVK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyVK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5093458B21FB62860041F62C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5093459721FB9FC50041F62C /* VKDaelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKDaelegate.swift; sourceTree = "<group>"; };
+		509345A521FBA16B0041F62C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		509345A721FBA50B0041F62C /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		7749E5BF0593BEDF8FA653FF /* Pods-testWEBIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testWEBIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-testWEBIM/Pods-testWEBIM.release.xcconfig"; sourceTree = "<group>"; };
+		D2524FABD54BCEE862B374E4 /* Pods-testWEBIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testWEBIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testWEBIM/Pods-testWEBIM.debug.xcconfig"; sourceTree = "<group>"; };
+		F16CF2952FEE05B4A3739E84 /* Pods_testWEBIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testWEBIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5093456E21FB4C490041F62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5093458A21FB61680041F62C /* SwiftyVK.framework in Frameworks */,
+				8782CC4B329C63E0B2F96248 /* Pods_testWEBIM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5093456821FB4C490041F62C = {
+			isa = PBXGroup;
+			children = (
+				5093457321FB4C490041F62C /* testWEBIM */,
+				5093457221FB4C490041F62C /* Products */,
+				AF4D76450220C261A474D9D3 /* Pods */,
+				AA9FCDC0882A33CDEF957F8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5093457221FB4C490041F62C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5093457121FB4C490041F62C /* testWEBIM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5093457321FB4C490041F62C /* testWEBIM */ = {
+			isa = PBXGroup;
+			children = (
+				5093459C21FBA0A30041F62C /* Application */,
+				5093459D21FBA0AE0041F62C /* Comments */,
+				5093459E21FBA0B50041F62C /* Supporting file */,
+			);
+			path = testWEBIM;
+			sourceTree = "<group>";
+		};
+		5093459921FB9FF60041F62C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5093457421FB4C490041F62C /* AppDelegate.swift */,
+				5093459721FB9FC50041F62C /* VKDaelegate.swift */,
+				509345A721FBA50B0041F62C /* SwiftyJSON.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5093459C21FBA0A30041F62C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5093459921FB9FF60041F62C /* Models */,
+				509345A021FBA0DF0041F62C /* View */,
+				5093459F21FBA0D90041F62C /* Controllers */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5093459D21FBA0AE0041F62C /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				509345A421FBA0F20041F62C /* Models */,
+				509345A321FBA0ED0041F62C /* View */,
+				509345A221FBA0E80041F62C /* Controllers */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		5093459E21FBA0B50041F62C /* Supporting file */ = {
+			isa = PBXGroup;
+			children = (
+				5093457B21FB4C490041F62C /* testWEBIM.xcdatamodeld */,
+				5093457E21FB4C4A0041F62C /* Assets.xcassets */,
+				5093458321FB4C4A0041F62C /* Info.plist */,
+			);
+			path = "Supporting file";
+			sourceTree = "<group>";
+		};
+		5093459F21FBA0D90041F62C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		509345A021FBA0DF0041F62C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5093458021FB4C4A0041F62C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		509345A221FBA0E80041F62C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5093458B21FB62860041F62C /* ViewController.swift */,
+				509345A521FBA16B0041F62C /* ViewController2.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		509345A321FBA0ED0041F62C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5093457821FB4C490041F62C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		509345A421FBA0F20041F62C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA9FCDC0882A33CDEF957F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5093458921FB61680041F62C /* SwiftyVK.framework */,
+				F16CF2952FEE05B4A3739E84 /* Pods_testWEBIM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4D76450220C261A474D9D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2524FABD54BCEE862B374E4 /* Pods-testWEBIM.debug.xcconfig */,
+				7749E5BF0593BEDF8FA653FF /* Pods-testWEBIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5093457021FB4C490041F62C /* testWEBIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5093458621FB4C4A0041F62C /* Build configuration list for PBXNativeTarget "testWEBIM" */;
+			buildPhases = (
+				8329E1EA477B896815E7009F /* [CP] Check Pods Manifest.lock */,
+				5093456D21FB4C490041F62C /* Sources */,
+				5093456E21FB4C490041F62C /* Frameworks */,
+				5093456F21FB4C490041F62C /* Resources */,
+				F59526B71C6EF12E91C15469 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testWEBIM;
+			productName = testWEBIM;
+			productReference = 5093457121FB4C490041F62C /* testWEBIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5093456921FB4C490041F62C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rinat Luhmanov";
+				TargetAttributes = {
+					5093457021FB4C490041F62C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5093456C21FB4C490041F62C /* Build configuration list for PBXProject "testWEBIM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5093456821FB4C490041F62C;
+			productRefGroup = 5093457221FB4C490041F62C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5093457021FB4C490041F62C /* testWEBIM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5093456F21FB4C490041F62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5093458221FB4C4A0041F62C /* LaunchScreen.storyboard in Resources */,
+				5093457F21FB4C4A0041F62C /* Assets.xcassets in Resources */,
+				5093457A21FB4C490041F62C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8329E1EA477B896815E7009F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testWEBIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59526B71C6EF12E91C15469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testWEBIM/Pods-testWEBIM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testWEBIM/Pods-testWEBIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5093456D21FB4C490041F62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509345A621FBA16B0041F62C /* ViewController2.swift in Sources */,
+				5093459821FB9FC50041F62C /* VKDaelegate.swift in Sources */,
+				5093457521FB4C490041F62C /* AppDelegate.swift in Sources */,
+				509345A821FBA50B0041F62C /* SwiftyJSON.swift in Sources */,
+				5093458C21FB62860041F62C /* ViewController.swift in Sources */,
+				5093457D21FB4C490041F62C /* testWEBIM.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5093457821FB4C490041F62C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5093457921FB4C490041F62C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5093458021FB4C4A0041F62C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5093458121FB4C4A0041F62C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5093458421FB4C4A0041F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5093458521FB4C4A0041F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5093458721FB4C4A0041F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2524FABD54BCEE862B374E4 /* Pods-testWEBIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/testWEBIM/Supporting file/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rrr.piggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5093458821FB4C4A0041F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7749E5BF0593BEDF8FA653FF /* Pods-testWEBIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/testWEBIM/Supporting file/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rrr.piggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5093456C21FB4C490041F62C /* Build configuration list for PBXProject "testWEBIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5093458421FB4C4A0041F62C /* Debug */,
+				5093458521FB4C4A0041F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5093458621FB4C4A0041F62C /* Build configuration list for PBXNativeTarget "testWEBIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5093458721FB4C4A0041F62C /* Debug */,
+				5093458821FB4C4A0041F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5093457B21FB4C490041F62C /* testWEBIM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5093457C21FB4C490041F62C /* testWEBIM.xcdatamodel */,
+			);
+			currentVersion = 5093457C21FB4C490041F62C /* testWEBIM.xcdatamodel */;
+			path = testWEBIM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5093456921FB4C490041F62C /* Project object */;
+}
